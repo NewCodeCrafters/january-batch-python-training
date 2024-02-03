@@ -1,0 +1,23 @@
+# Create a program that takes the following information about a user.
+# name
+# birth_year
+# bank name
+# balance
+# year interest
+
+# After getting the year interest, You are to calculate the interest value for the interest
+
+# Your output should be as follows:
+# Hello Bello, You are 10 years old. Your balance in your UBA bank is 12000. Your yearly income on interest 10% is 1250.
+
+name = input("What is your name? ")
+birth_year = int(input("Enter your birth year: "))
+bank_name = input("What is the name of your bank? ")
+balance = float(input("How much do you have in your account? "))
+interest = float(input("What is your yearly interest? "))
+age = 2024 - birth_year
+interest_value = (interest / 100) * balance
+
+sentence = f"Hello {name.title()}, You are {age} years old. your balance in your {bank_name.upper()} is {balance}. Your yearly income on interest {interest}% is {interest_value}."
+
+print(sentence)
