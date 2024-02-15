@@ -24,7 +24,7 @@ groceries = ["sugar", "Maggi", "salt", "Apples", "Garri", "Beans", "Cereals", "D
 
 # # salt garri and cereals
 
-print(groceries[:5:2])
+print(groceries[:5:2]) 
 print(groceries[5:])
 print(groceries[2:7:2])
 
