@@ -9,8 +9,8 @@ fruit1 = "Orange is a sweet fruit"
 instinct = "Joy gladdens my heart"
 num3 = 34
 num4 = 42
-"34" + "42" = "3442"
-str(True) = "True"
+# "34" + "42" = "3442"
+# str(True) = "True"
 
 total = str(num3) + str(num4)
 print(total)
