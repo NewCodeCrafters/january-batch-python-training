@@ -1,7 +1,7 @@
 # I am Divine. I love coding and my intructor is the best in town.
 aph1 = "I "
 aph2 = "am "
-aph3 = "Divine. "
+aph3 = "spencer. "
 aph4 = "I "
 aph5 = "love "
 aph6 = "coding "

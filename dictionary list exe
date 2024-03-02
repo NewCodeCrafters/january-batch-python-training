@@ -1,0 +1,100 @@
+# Create a list of your favorite fruits and print the first and last elements.
+
+fruits = ["Grape", "Berries", "Cherry", "Apple", "Pawpaw", "Water melon"]
+
+# print(fruits[0], fruits[-1])
+
+# Modify the list from exercise 1 by adding two more fruits to it.
+fruits.extend(["Kiwi", "Plum"])
+print(fruits)
+# Create a tuple containing the days of the week and print the second and last elements.
+days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+# print(days[1], days[-1])
+
+# Convert the tuple from exercise 3 into a list and append "Sunday" to it.
+days = list(days)
+days.append("Sunday")
+days = tuple(days)
+
+# Create a dictionary representing a person's information (name, age, profession) and print out each key-value pair.
+database = {
+  "name": "Spencer",
+  "age": 94,
+  "profession": "ML engineer",
+}
+
+# print(database)
+# dictionaries are mutable (can be modified)
+
+# Modify the dictionary from exercise 5 to include the person's hometown.
+database["age"] = 134
+database['name'] = "Divine"
+database['hometown'] = "Lagos"
+database["fav_color"] = "Rainbow"
+print(database)
+
+# Create a list of numbers from 1 to 10 and print out only the even numbers using slicing.
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numbers[1::2])
+
+# Modify the list from exercise 7 by replacing the odd numbers with their squares.
+# new_numbers = [num ** 2 for num in numbers if num % 2 == 1]
+# print(new_numbers)
+
+# Create a tuple of colors and print out every second color using slicing.
+colors = ("red", "Blue", "Yellow", "green", "White", "Pink")
+print(colors[1::2])
+
+# Modify the tuple from exercise 9 by converting it into a list and appending "purple" to it.
+colors = list(colors)
+colors.append("Purple")
+colors = tuple(colors)
+print(colors)
+
+# Create a dictionary representing a student's grades in different subjects and print out the grade for one of the subjects.
+
+hakeem_grades = {
+  'maths': 12,
+  "english": 11,
+  "phe": 99,
+  "chem": 50
+}
+
+print(hakeem_grades["phe"])
+
+# Modify the dictionary from exercise 11 to include the student's average grade.
+hakeem_grades['average_grade'] = 51.2
+print(hakeem_grades)
+# Create a list of names and print out the first three names using negative indexing.
+
+names = ["divine", "spencer", "mrs raji", "sunday", "favour"]
+print(names[-5], names[-4], names[-3])
+print(names[:-2])
+
+# Modify the list from exercise 13 by replacing the last two names with "Alice" and "Bob".
+# names.extend["sunday"] = "alice" ["favour"] = "bob"
+print(names)
+names[-2:] = ["Alice", "Bob"]
+print(names)
+# Create a tuple of temperatures for the week and print out the temperatures for the first three days.
+temp = (12, 13,14, 15)
+# Modify the tuple from exercise 15 to include the average temperature for the week.
+temp = list(temp)
+temp.append(17)
+temp = tuple(temp)
+# Create a dictionary representing a shopping list with items and their quantities, then print out the total number of items.
+items = {
+  "garri": 30,
+  "rice": 200,
+  "water": 1,
+  "Sugar": 12
+}
+print(len(items))
+# Modify the dictionary from exercise 17 to include the prices of each item and print out the total cost of the shopping list.
+
+# Create a list of tuples containing the names and ages of people, then print out only the names. 
+names = ("Spencer", "divine", "favour")
+age = ("94", "27", "30")
+print(names)
+
+# Modify the list from exercise 19 to sort the tuples based on age in ascending order and print out the sorted list
